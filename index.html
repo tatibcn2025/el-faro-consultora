@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EL FARO Consultora</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet" />
+</head>
+<body class="bg-white text-gray-800">
+  <!-- HEADER -->
+  <header class="sticky top-0 z-50 backdrop-blur bg-white/70 border-b border-gray-200">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="h-10 w-10 rounded-full bg-gradient-to-tr from-blue-400 to-indigo-500 grid place-items-center shadow-md text-white font-bold text-lg">F</div>
+        <div>
+          <div class="text-xl font-bold tracking-tight">EL FARO</div>
+          <div class="text-xs uppercase tracking-widest text-gray-500">consultora</div>
+        </div>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#servicios" class="hover:text-blue-700">Servicios</a>
+        <a href="#packs" class="hover:text-blue-700">Packs</a>
+        <a href="#testimonios" class="hover:text-blue-700">Testimonios</a>
+        <a href="#blog" class="hover:text-blue-700">Guías</a>
+        <a href="#contacto" class="hover:text-blue-700">Contacto</a>
+      </nav>
+      <a href="#contacto" class="hidden md:block bg-blue-600 text-white px-4 py-2 rounded-xl">Reservá asesoría</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="max-w-6xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">En tu camino hacia España, <span class="text-blue-700">no estás solo</span>.</h1>
+      <p class="mt-4 text-lg text-gray-600">Te guiamos para que tu experiencia migratoria sea clara, tranquila y llena de oportunidades.</p>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a href="#contacto" class="bg-blue-600 text-white px-6 py-3 rounded-xl">Reservá asesoría</a>
+        <a href="#servicios" class="border border-gray-400 px-6 py-3 rounded-xl">Descubrí nuestros servicios</a>
+      </div>
+    </div>
+    <div>
+      <div class="rounded-3xl overflow-hidden shadow-xl">
+        <img src="https://images.unsplash.com/photo-1500048993953-d23a436266cf?q=80&w=1400&auto=format&fit=crop" class="w-full h-full object-cover" />
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center">Servicios</h2>
+      <p class="mt-2 text-center text-gray-600">Consultoría migratoria + Agencia de viajes boutique</p>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
+        <div class="p-6 bg-white rounded-2xl shadow">Vivienda – Búsqueda de piso y acompañamiento.</div>
+        <div class="p-6 bg-white rounded-2xl shadow">Trámites – Empadronamiento, homologación y más.</div>
+        <div class="p-6 bg-white rounded-2xl shadow">Integración – Sanidad, escolarización, vida diaria.</div>
+        <div class="p-6 bg-white rounded-2xl shadow">Escapadas – Viajes cortos y planes familiares.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PACKS -->
+  <section id="packs" class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center">Packs y precios</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
+        <div class="p-6 bg-white rounded-2xl shadow">
+          <h3 class="font-bold mb-4">Pack Llegada</h3>
+          <p class="text-gray-600">desde 250€</p>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow">
+          <h3 class="font-bold mb-4">Pack Profesional</h3>
+          <p class="text-gray-600">desde 550€</p>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow">
+          <h3 class="font-bold mb-4">Pack Escapada Boutique</h3>
+          <p class="text-gray-600">desde 150€</p>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow">
+          <h3 class="font-bold mb-4">Club de Escapadas</h3>
+          <p class="text-gray-600">30€/mes</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="py-16 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center">Contacto</h2>
+      <form class="mt-8 bg-white p-6 rounded-2xl shadow grid md:grid-cols-2 gap-4">
+        <input placeholder="Nombre" class="border p-3 rounded-xl" />
+        <input placeholder="Email" class="border p-3 rounded-xl" />
+        <textarea placeholder="Mensaje" class="md:col-span-2 border p-3 rounded-xl" rows="4"></textarea>
+        <button class="md:col-span-2 bg-blue-600 text-white py-3 rounded-xl">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-10 border-t border-gray-200 text-center text-gray-500">
+    © 2025 EL FARO consultora — Todos los derechos reservados.
+  </footer>
+</body>
+</html>
